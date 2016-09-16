@@ -1,0 +1,7 @@
+/Moose-Meta-Attribute-Custom-Trait-Cache-*
+/.build
+/_build*
+/Build
+MYMETA.*
+!META.json
+/.prove
