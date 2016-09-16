@@ -88,7 +88,35 @@ Moose::Meta::Attribute::Custom::Trait::Cache - Enables expiration time for attri
 
 =head1 SYNOPSIS
 
-  use Moose::Meta::Attribute::Custom::Trait::Cache;
+  package City;
+  use Moose;
+
+  has temperature => (
+    traits => ['Cache'],
+    is => 'rw',
+    isa => 'Int',
+    builder => _get_temperature,
+    required => 1,
+    expiration_time => 10,
+  );
+
+  sub _get_temperature {
+    state $t = 10;
+    return $t++;
+  }
+
+  no Moose;
+  1;
+
+  package main;
+  my $city = City->new();
+
+  say $city->temperature() # 10
+  # after +10 seconds
+  say $city->temperature() # 11
+  # after +10 seconds
+  say $city->temperature() # 12
+
 
 =head1 DESCRIPTION
 
