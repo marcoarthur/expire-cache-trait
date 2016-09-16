@@ -48,6 +48,17 @@
       }
    },
    "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/marcoarthur/expire-cache-trait/issues"
+      },
+      "homepage" : "https://github.com/marcoarthur/expire-cache-trait",
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/marcoarthur/expire-cache-trait.git",
+         "web" : "https://github.com/marcoarthur/expire-cache-trait"
+      }
+   },
    "version" : "0.01",
    "x_serialization_backend" : "Cpanel::JSON::XS version 3.0217"
 }
