@@ -1,6 +1,6 @@
 # NAME
 
-Moose::Meta::Attribute::Custom::Trait::Cache - Blah blah blah
+Moose::Meta::Attribute::Custom::Trait::Cache - Enables expiration time for attributes
 
 # SYNOPSIS
 
@@ -8,7 +8,8 @@ Moose::Meta::Attribute::Custom::Trait::Cache - Blah blah blah
 
 # DESCRIPTION
 
-Moose::Meta::Attribute::Custom::Trait::Cache is
+Moose::Meta::Attribute::Custom::Trait::Cache applies a rule for expire the attribute
+forcing it to renew when expired.
 
 # AUTHOR
 

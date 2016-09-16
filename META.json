@@ -1,5 +1,5 @@
 {
-   "abstract" : "Blah blah blah",
+   "abstract" : "Enables expiration time for attributes",
    "author" : [
       "Marco Arthur <arthurpbs@gmail.com>"
    ],
@@ -37,7 +37,8 @@
       },
       "runtime" : {
          "requires" : {
-            "perl" : "5.008005"
+            "Moose" : "2.1805",
+            "perl" : "5.010"
          }
       },
       "test" : {

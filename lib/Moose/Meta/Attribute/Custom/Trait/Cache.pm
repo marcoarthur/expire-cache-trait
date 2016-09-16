@@ -3,6 +3,7 @@ package Moose::Meta::Attribute::Custom::Trait::Cache;
 use Modern::Perl;
 use Moose::Role;
 use Moose::Util 'throw_exception';
+our $VERSION = '0.01';
 
 # time interval in seconds to expire attribute value
 has expiration_time => (
