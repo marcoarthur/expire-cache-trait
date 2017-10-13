@@ -6,4 +6,5 @@ requires 'Modern::Perl', '1.20150127';
 
 on test => sub {
     requires 'Test::More', '0.96';
+    requires 'Test::Most', '0.35';
 };
