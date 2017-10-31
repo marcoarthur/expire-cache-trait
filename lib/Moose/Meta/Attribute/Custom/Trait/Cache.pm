@@ -22,6 +22,11 @@ has last_access => (
     default => sub { time },
 );
 
+sub update_counter {
+    state $counter = 1;
+    $counter++;
+}
+
 # does verify expiration time
 sub is_expired {
     my $self = shift;
