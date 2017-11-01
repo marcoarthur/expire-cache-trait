@@ -53,7 +53,7 @@ sub _install_hooks {
             return $c->$next() unless $self->is_expired;
 
             # warn for the expired value
-            warn $self->name . " attribute value expired, should be updated";
+            warn $self->name . " attribute value expired " . $self->update_counter  . ", should be updated";
 
             # builder does not exist: throw an exception
             my $builder = $self->builder;
