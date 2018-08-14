@@ -1,4 +1,6 @@
 Revision history for Moose-Meta-Attribute-Custom-Trait-Cache
 
+0.02:
+        - Add expiration's counter: #1
 0.01:
         - Initial release
