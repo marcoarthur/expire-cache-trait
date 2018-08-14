@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/marcoarthur/expire-cache-trait.svg?branch=master)](https://travis-ci.org/marcoarthur/expire-cache-trait)
+
 # NAME
 
 Moose::Meta::Attribute::Custom::Trait::Cache - Enables expiration time for attributes
