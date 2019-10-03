@@ -1,10 +1,17 @@
-requires 'perl', '5.010';
+requires 'Modern::Perl';
+requires 'Moose::Role';
+requires 'Moose::Util';
 
-# requires 'Some::Module', 'VERSION';
-requires 'Moose', '2.1805';
-requires 'Modern::Perl', '1.20150127';
+on configure => sub {
+    requires 'Module::Build::Tiny', '0.034';
+    requires 'perl', '5.010';
+};
 
 on test => sub {
-    requires 'Test::More', '0.96';
-    requires 'Test::Most', '0.35';
+    requires 'Moose';
+    requires 'Test::More';
+    requires 'Test::Most';
+    requires 'perl', '5.010';
 };
+
+
