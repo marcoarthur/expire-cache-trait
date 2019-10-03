@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/marcoarthur/expire-cache-trait.svg?branch=master)](https://travis-ci.org/marcoarthur/expire-cache-trait)
 [![Coverage Status](https://coveralls.io/repos/marcoarthur/expire-cache-trait/badge.svg?branch=master)](https://coveralls.io/r/marcoarthur/expire-cache-trait?branch=master)
-[![Kwalitee status](http://cpants.cpanauthors.org/dist/Moose-Meta-Attribute-Custom-Trait-Cache.png)](http://cpants.charsbar.org/dist/overview/Moose-Meta-Attribute-Custom-Trait-Cache)
+[![Kwalitee status](http://cpants.cpanauthors.org/dist/expire-cache-trait.png)](http://cpants.charsbar.org/dist/overview/expire-cache-trait)
 
 # NAME
 
