@@ -4,7 +4,7 @@
       "Marco Arthur <arthurpbs@gmail.com>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Milla version v1.0.20, Dist::Zilla version 6.012, CPAN::Meta::Converter version 2.150010",
+   "generated_by" : "Dist::Milla version v1.0.20, Dist::Zilla version 6.014, CPAN::Meta::Converter version 2.150010",
    "license" : [
       "perl_5"
    ],
@@ -26,7 +26,8 @@
    "prereqs" : {
       "configure" : {
          "requires" : {
-            "Module::Build::Tiny" : "0.034"
+            "Module::Build::Tiny" : "0.034",
+            "perl" : "5.010"
          }
       },
       "develop" : {
@@ -38,15 +39,17 @@
       },
       "runtime" : {
          "requires" : {
-            "Modern::Perl" : "1.20150127",
-            "Moose" : "2.1805",
-            "perl" : "5.010"
+            "Modern::Perl" : "0",
+            "Moose::Role" : "0",
+            "Moose::Util" : "0"
          }
       },
       "test" : {
          "requires" : {
-            "Test::More" : "0.96",
-            "Test::Most" : "0.35"
+            "Moose" : "0",
+            "Test::More" : "0",
+            "Test::Most" : "0",
+            "perl" : "5.010"
          }
       }
    },
@@ -64,7 +67,8 @@
    },
    "version" : "0.02",
    "x_generated_by_perl" : "v5.28.2",
-   "x_serialization_backend" : "Cpanel::JSON::XS version 4.12",
+   "x_serialization_backend" : "Cpanel::JSON::XS version 4.19",
+   "x_spdx_expression" : "Artistic-1.0-Perl OR GPL-1.0-or-later",
    "x_static_install" : 1
 }
 
